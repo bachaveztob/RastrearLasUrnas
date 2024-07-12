@@ -99,7 +99,7 @@ align-items: center;
     }
            
     .informacion2 {
-    height: 580px;    
+    height: 480px;    
     padding-top: 10px;
     width: 100%; 
     display: flex;
@@ -112,26 +112,36 @@ align-items: center;
         display: flex;
         flex-direction: column; 
         width: 33.33%;
-        height: 580px; 
+        height: 480px; 
         padding: 8px;
         overflow: hidden;
         }
    
-    .s2-contenido img{        
+    .s2-contenido img{   
+          
        object-fit: cover;
         width: 50%;
+        height: 40%;  
+        align-items: center;
+    }
+    .contenido-img{
+        padding: 20px;
+        object-fit: cover;
+        width: 40%;
         height: 50%;  
-        overflow: hidden;
+        align-items: center;
+
     }
    
    .contenido1-texto{
       object-fit: cover;
-      width: 100%;
+      width:80%;
       height: 50%;
       display: flex;
       flex-direction: column;
       justify-content: start;
       align-items: center;
+      
    }
    .contenido1-texto h2{
     font-size: 24px;
